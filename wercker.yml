@@ -1,0 +1,21 @@
+box: python
+build:
+  steps:
+    - arjen/hugo-build:
+        version: "0.36.1"
+        theme: kiss
+        flags: --buildDrafts=true
+        dev_flags: -D -F -v
+        config: config.toml
+deploy:
+  steps:
+    - pip-install:
+        requirements_file: ""
+        packages_list: "certifi"
+    - s3sync:
+        key-id: $AWS_ACCESS_KEY
+        key-secret: $AWS_SECRET_ACCESS_KEY
+        source-dir: $SOURCE_PATH
+        bucket-url: $DESTINATION_BUCKET
+        opts: --acl-public
+        delete-removed: false
