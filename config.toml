@@ -49,7 +49,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 [[menu.main]]
     name = "Blog"
     weight = 3
-    url  = "https://aniotaofthought.com"
+    url  = "/posts/"
 [[menu.main]]
     name = "About"
     weight = 1
