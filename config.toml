@@ -1,7 +1,7 @@
 baseurl = "https://abhis.ws" # Hostname (and path) to the root.
 title = "Abhishek Dey Das" # Site title.
 theme = "hugo-coder" # Set the theme.
-languagecode = "en" # The site’s language code.
+# languagecode = "en" # The site’s language code.
 
 paginate = 20 # Default number of pages per page in pagination.
 canonifyurls = true # Enable to turn relative URLs into absolute.
