@@ -33,17 +33,13 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 
 # Social links
 [[params.social]]
-    name = "Github"
-    weight = 1
-    url = "https://github.com/adeydas/"
-[[params.social]]
-    name = "Twitter"
-    weight = 2
-    url = "https://twitter.com/adeydas/"
-[[params.social]]
     name = "LinkedIn"
-    weight = 3
+    weight = 1
     url = "https://www.linkedin.com/in/adeydas/"
+[[params.social]]
+    name = "Email"
+    weight = 2
+    url = "/email-me/"
 
 # Menu links
 [[menu.main]]
