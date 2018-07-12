@@ -35,6 +35,8 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 
     facebook = "adeydas"
 
+    twitter = "adeydas"
+
 # Social links
 [[params.social]]
     name = "LinkedIn"
