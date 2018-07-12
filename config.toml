@@ -31,6 +31,10 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     # RTL support
     rtl = false
 
+    email = "abhishek@abhis.ws"
+
+    facebook = "adeydas"
+
 # Social links
 [[params.social]]
     name = "LinkedIn"

@@ -12,6 +12,8 @@
     <base href="{{ .Site.BaseURL }}">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
+    {{- partial "social/opengraph" . -}}
+
     <link rel="canonical" href="{{ .Permalink }}">
 
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
