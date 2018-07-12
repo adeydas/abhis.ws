@@ -12,6 +12,8 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 
 # disqusShortname = "yourdiscussshortname" # Enable or disable Disqus
 
+disableKinds = ["RSS"]
+
 [params] # theme parameters
     author = "Abhishek Dey Das" # Author's name.
     info = "Software Development Engineer at Amazon" # Author's job title or info.
