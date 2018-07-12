@@ -19,14 +19,14 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     keywords = "blog,developer,personal" # Site keywords.
     avatarurl = "images/abhishek.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-    footercontent = "All copyrights reserved. All opinions are personal and does not reflect that of my employer or organizations I am associated with." # Add footer content
+    footercontent = "All opinions are personal and does not reflect that of my employer or organizations I am associated with." # Add footer content
 
     # Whether you want to hide copyright and credits in the footer.
-    hideCredits = false
+    hideCredits = true
     hideCopyright = false
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["css/custom.css"]
 
     # RTL support
     rtl = false
