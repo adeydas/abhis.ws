@@ -1,0 +1,28 @@
+<div class="jumbotron">
+    {{ with .Site.Params.avatarurl }}
+    <img src="{{.}}" alt="avatar" class="home-img" align="left">
+    {{ end }}
+    <p>&nbsp;</p>
+
+    <div>
+        <p>{{ .Site.Params.introduction }}</p>
+        <p><a href="/about" class="btn btn-sm btn-default">Read more</a></p>
+    </div>
+
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+       <h3 class="panel-title">Blog posts</h3>
+    </div>
+
+    <div class="panel-body">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+        {{ range sort $paginator.Pages }}
+        {{ .Date.Format "January 2, 2006" }} -  <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}<br />
+        {{ end }}
+
+        <p>&nbsp;</p>
+        <p><a href="/posts" class="btn btn-sm btn-default">Read more</a></p>
+    </div>
+</div>
