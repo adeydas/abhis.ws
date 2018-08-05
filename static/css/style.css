@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.home-img {
+    height: 200px;
+    border-radius:50%;
+    margin-right: 20%;
+}
+
+p, h1, h2, h3, h4, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+.footer-text {
+    font-size: 12px;
+}
