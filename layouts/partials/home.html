@@ -19,7 +19,7 @@
     <div class="panel-body">
         {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
         {{ range sort $paginator.Pages }}
-        {{ .Date.Format "January 2, 2006" }} -  <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}<br />
+        <p>{{ .Date.Format "January 2, 2006" }} -  <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</p>
         {{ end }}
 
         <p>&nbsp;</p>
