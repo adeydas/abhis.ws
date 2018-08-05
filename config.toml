@@ -1,6 +1,6 @@
 baseurl = "https://abhis.ws" # Hostname (and path) to the root.
 title = "Abhishek Dey Das" # Site title.
-theme = "hugo-coder" # Set the theme.
+theme = "hugo-simple-personal-site" # Set the theme.
 # languagecode = "en" # The site’s language code.
 
 paginate = 20 # Default number of pages per page in pagination.
@@ -18,10 +18,12 @@ disableKinds = ["RSS"]
     author = "Abhishek Dey Das" # Author's name.
     info = "Software Development Engineer at Amazon" # Author's job title or info.
     description = "Abhishek Dey Das's personal website" # Site description.
+    introduction = "Hello and welcome to my homepage. I am a software engineer, foodie and an amateur photographer."
+    aboutpage = "/about/"
     keywords = "blog,developer,personal" # Site keywords.
     avatarurl = "images/abhishek.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-    footercontent = "All opinions are personal and does not reflect that of my employer or organizations I am associated with." # Add footer content
+    footercontent = "All copyrights reserved. All opinions are personal and does not reflect that of my employer or organizations I am associated with." # Add footer content
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = true
@@ -38,6 +40,10 @@ disableKinds = ["RSS"]
     facebook = "adeydas"
 
     twitter = "adeydas"
+
+    linkedin = "adeydas"
+
+    github = "adeydas"
 
 # Social links
 [[params.social]]
