@@ -21,3 +21,13 @@ li {
 .footer-text {
     font-size: 12px;
 }
+
+.blog-content p, ul, li {
+    font-size: 1.0em;
+}
+
+.twitter-footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    align-content: center;
+}
