@@ -31,3 +31,8 @@ li {
     margin-bottom: 2em;
     align-content: center;
 }
+
+.label a {
+    color: #ffffff;
+    text-decoration: none;
+}

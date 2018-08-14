@@ -1,0 +1,9 @@
+{{ range first 1 . }}
+<span class="label label-default"><a href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a></span>
+{{ end }}
+
+{{ if gt (len .) 1 }}
+{{ range after 1 . }}
+<span class="label label-default"><a href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a></span>
+{{ end }}
+{{ end }}
