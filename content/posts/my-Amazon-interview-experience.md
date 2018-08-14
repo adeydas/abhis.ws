@@ -3,6 +3,7 @@ title: "My Amazon Interview Experience"
 date: 2015-07-10T11:38:00-07:00
 draft: false
 tags: [amazon,interview,experience,sde]
+shorturl: https://abhi.ws/myamae379b
 layout: "post"
 ---
 It's been a couple of weeks since I interviewed with Amazon but better late than never, right. As a prologue to this rant, I will not share questions and/or any part of our conversation that falls under the NDA. What I will share is my experience and a few helpful interview tips. The tips are from my experience (and help from friends). So here goes.

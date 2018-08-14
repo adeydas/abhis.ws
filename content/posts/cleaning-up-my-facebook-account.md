@@ -3,6 +3,7 @@ title: "Cleaning Up My Facebook Account"
 date: 2018-03-25T19:18:24-07:00
 draft: false
 tags: [facebook, social media, security, technology]
+shorturl: https://abhi.ws/clean293eb
 layout: "post"
 ---
 

@@ -3,6 +3,7 @@ title: "Continuous Deployment of Blog Posts"
 date: 2018-03-09T22:16:16-08:00
 draft: false
 tags: [aws, hugo, s3, cloudfront, route53]
+shorturl: https://abhi.ws/conti5ca4b
 layout: "post"
 ---
 

@@ -3,6 +3,7 @@ title: "Our B1 B2 Visa Experience"
 date: 2018-01-06T11:55:35-08:00
 draft: false
 tags: [immigration,usa]
+shorturl: https://abhi.ws/ourb127bb1
 layout: "post"
 ---
 

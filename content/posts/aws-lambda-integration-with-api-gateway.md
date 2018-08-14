@@ -3,6 +3,7 @@ title: "Aws Lambda Integration With Api Gateway Without Proxy Integration"
 date: 2018-06-15T19:56:20-07:00
 draft: false
 tags: [aws, api gateway, lambda]
+shorturl: https://abhi.ws/awslaba621
 layout: "post"
 ---
 I was looking into using AWS API Gateway with a AWS Lambda without proxy integration today and I couldn't find enough resources on how to configure the integration response for throwing non-200 status codes on failures. Turns out, its not that complicated. So here we go.

@@ -3,6 +3,7 @@ title: "Getting a Tags Page"
 date: 2018-04-08T00:54:27-07:00
 draft: false
 tags: [hugo, frontmatter]
+shorturl: https://abhi.ws/getti5966f
 layout: "post"
 ---
 I wanted to get a page with all the tags in it sorted by the number of posts referencing each. The goal was to provide visitors to pick a tag of choice and be able to read posts in it. As I have talked about in previous posts, I am using Hugo for my site, so this post will be focussed on how I got it done on Hugo.

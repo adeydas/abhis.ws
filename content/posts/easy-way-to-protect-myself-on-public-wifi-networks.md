@@ -3,6 +3,7 @@ title: "Easy Way to Protect Myself on Public Wifi Networks"
 date: 2018-08-12T11:16:23-07:00
 draft: false
 tags: [vpn,security,wifi,l2tp]
+shorturl: https://abhi.ws/easyw6cea3
 layout: "post"
 ---
 Public wifi has been a big part of my daily driver after moving to Vancouver. Every shopping mall, shop or restaurant seem

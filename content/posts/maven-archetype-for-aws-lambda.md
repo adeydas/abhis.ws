@@ -3,6 +3,7 @@ title: "Maven Archetype for Aws Lambda"
 date: 2018-05-02T20:39:03-07:00
 draft: false
 tags: [aws, lambda, java, maven, archetype, open source]
+shorturl: https://abhi.ws/maven64838
 layout: "post"
 ---
 I recently started playing with AWS Lambda and migrated a couple of my projects that suited the model to it. While re-writing some of those things, the one thing I missed the most was an automatic way to generate all the boilerplate code I need for every Lambda. Thus, I ended up writing an archetype for creating AWS Lambdas in JAVA.

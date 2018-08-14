@@ -3,6 +3,7 @@ title: "Invalidating Cache for Static Website With S3 and Cloudfront - Part 2"
 date: 2018-05-26T09:16:41-07:00
 draft: false
 tags: [aws, hugo, s3, cloudfront, route53]
+shorturl: https://abhi.ws/invalbfb78
 layout: "post"
 ---
 In an [earlier post](https://aniotaofthought.com/posts/invalidating-cache-static-website-s3-cloudfront/), I talked about a python based lambda to invalidate the static website cache. In this post I am going to talk about a JAVA based lambda. The underlying logic remains the same, so I am going to concentrate more on the code.

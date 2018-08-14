@@ -3,6 +3,7 @@ title: "Invalidating Cache For a Static Website With S3 and Cloudfront"
 date: 2018-03-05T19:54:23-08:00
 draft: false
 tags: [aws, hugo, s3, cloudfront, route53]
+shorturl: https://abhi.ws/inval74796
 layout: "post"
 ---
 
