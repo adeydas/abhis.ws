@@ -43,7 +43,7 @@ only supported protocol by the tech I used.
 
 Architecture
 --
-![VPN architecture](images/blog/vpn_architecture.png)
+{{< figure src="/images/blog/vpn_architecture.png" alt="VPN architecture" >}}
 
 A few clarifying points on the architecture:
 
