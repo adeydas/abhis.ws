@@ -71,7 +71,95 @@ Thomas Witt has a [wonderful blog post on how to go about it](https://thomas-wit
 However, I will add my VPN profile for iOS devices. If you have a simple usecase like me with one VPN server and one WiFi network, simple replace 
 'CHANGE_ME' to the appropriate value and you should be good to go.
 
-<script src="https://gist.github.com/adeydas/8a7074449f26688a9d998d6b215449eb.js"></script>
+{{< highlight xml >}}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>        <dict>
+      <key>UserDefinedName</key>
+      <string>AbhiNita VPN profile</string>
+      <key>PayloadDisplayName</key>
+      <string>AbhiNita VPN profile</string>
+      <key>PayloadIdentifier</key>
+      <string>ws.abhis.abhinita.vpn</string>
+      <key>PayloadUUID</key>
+      <string>1D68A15E-BB76-9EA9-DF80-4C2C8E3E4859</string>
+      <key>VPNType</key>
+      <string>L2TP</string>
+      <key>IPSec</key>
+      <dict>
+        <key>AuthenticationMethod</key>
+        <string>SharedSecret</string>
+        <key>LocalIdentifierType</key>
+        <string>KeyID</string>
+        <key>SharedSecret</key>
+        <string>CHANGE_ME_TO_YOUR_SHARED_SECRET</string>
+      </dict>
+      <key>PPP</key>
+      <dict>
+        <key>AuthName</key>
+        <string>CHANGE_ME_TO_YOUR_AUTH_USERNAME</string>
+        <key>AuthPassword</key>
+        <string>CHANGE_ME_TO_YOUR_AUTH_PASSWORD</string>
+        <key>CommRemoteAddress</key>
+        <string>CHANGE_ME_TO_YOUR_VPN_SERVER_ADDRESS</string>
+      </dict>
+      <key>OnDemandEnabled</key>
+   <integer>1</integer>
+   <key>OnDemandRules</key>
+          <array>
+        <dict>
+          <key>InterfaceTypeMatch</key>
+          <string>WiFi</string>
+          <key>SSIDMatch</key>
+          <array>
+ <string>CHANGE_ME_TO_YOUR_HOME_WIFI_SSID</string>
+           </array>
+          <key>Action</key>
+          <string>Disconnect</string>
+        </dict>
+        <dict>
+          <key>InterfaceTypeMatch</key>
+          <string>WiFi</string>
+          <key>Action</key>
+          <string>Connect</string>
+        </dict>
+        <dict>
+          <!-- VPN Default state -->
+          <key>Action</key>
+          <string>Disconnect</string>
+        </dict>
+          </array>
+      <key>OverridePrimary</key>
+      <true/>
+      <key>IPv4</key>
+      <dict>
+        <key>OverridePrimary</key>
+        <integer>1</integer>
+      </dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+</array>
+  <key>PayloadDisplayName</key>
+  <string>VPN Configurations</string>
+  <key>PayloadIdentifier</key>
+  <string>06A84332-4F0F-BD88-CA71-3E63EA0E6D56</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>88D906BD-78F0-B549-4CD2-1E542DA82A0B</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
+{{< /highlight >}}
 
 This method, by no means, is fool proof but will give a certain level of protection while using public WiFi networks along with 
 access to resources within your home network. There's certainly ground for improvement like using more secure protocols, making the 
