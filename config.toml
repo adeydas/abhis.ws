@@ -72,3 +72,7 @@ disableKinds = ["RSS"]
 	name = "Projects"
 	weight = 2
 	url = "/projects/"
+[[menu.main]]
+	name = "Photos"
+	weight = 4
+	url = "https://www.flickr.com/photos/adeydas"
