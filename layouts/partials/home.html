@@ -17,6 +17,7 @@
     </div>
 
     <div class="panel-body">
+        <p><a href="https://medium.com/@abhishekdeydas" class="btn btn-sm btn-default">More on Medium</a></p>
         {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
         {{ range sort $paginator.Pages }}
         <p>{{ .Date.Format "January 2, 2006" }} -  <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</p>
